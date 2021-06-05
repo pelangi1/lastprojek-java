@@ -105,7 +105,7 @@ public class Ez extends Application {
         Add.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-
+    
                 String NIM = Nim.getText();
                 String NAMA = Nama.getText();
                 String FAKULTAS = Fakultas.getText();
@@ -201,4 +201,5 @@ public class Ez extends Application {
     public static void main(String[] args) {
         launch(args);
     }
+    
 }
